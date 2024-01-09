@@ -15,7 +15,7 @@ spec:
         app: go-server-ci
     spec:
       containers:
-      - image: rbell3/go-server-ci
+      - image: docker pull ghcr.io/2023-4400-exp/4417-go-server-ci:2519c227864745f9ef3437e269e86b19e2239e7a@sha256:6ef6349a9b4fc55bd49b441608f5d79630b9e0ee21534e7407f3bb184d9e6914 
         name: go-server-ci
 ---
 apiVersion: v1
